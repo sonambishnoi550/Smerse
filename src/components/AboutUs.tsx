@@ -3,7 +3,7 @@ import React from 'react'
 const AboutUs = () => {
     return (
         <div id='project' className='bg-blue'>
-            <div className='bg-blue relative xl:py-[210px] md:pt-24 pt-16 xl:flex items-center justify-center max-w-[1920px] mx-auto' >
+            <div className='bg-blue relative xl:py-[210px] md:pt-24 pt-[61px] xl:flex items-center justify-center max-w-[1920px] mx-auto' >
                 <div className="container max-w-[1140px] mx-auto px-4 relative z-10">
                     <div className='xl:max-w-[550px] max-xl:mx-auto max-xl:w-full'>
                         <div className="flex items-center">

@@ -8,13 +8,29 @@ interface HeaderItem {
 }
 const Header = () => {
     const [open, setOpen] = useState<boolean>(false);
+    useEffect(() => {
+        const handleScroll = () => {
+            const navbar = document.getElementById("navbar");
+            if (navbar) {
+                if (window.scrollY > 200) {
+                    navbar.classList.add("!bg-black");
+                } else {
+                    navbar.classList.remove("!bg-black");
+                }
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         document.body.style.overflow = open ? "hidden" : "auto";
     }, [open]);
 
     return (
-        <div className="bg-light-black/50">
+        <div id="navbar" className="bg-light-black/50 fixed left-0 top-0 w-full z-30">
             <div className="container max-w-[1140px] mx-auto px-4 flex items-center justify-between md:py-4 py-[5px]">
                 <a href="/">
                     <img src="./assets/images/png/logo.png" alt="logo" className="md:size-[68px] size-10 pointer-events-none" />
