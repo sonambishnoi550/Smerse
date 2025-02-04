@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='bg-cover bg-no-repeat bg-center xl:min-h-screen 2xl:min-h-fit relative pb-20' style={{ backgroundImage: `url(./assets/images/png/hero-bg.png)` }}>
       <Header />
       <div className="container max-w-[1140px] mx-auto">
-        <img className='lg:max-w-[404px] md:max-w-[388px] max-w-[256px] mx-auto md:mt-[52px] mt-[113px]' src="./assets/images/png/hero-image.png" alt="hero-image" />
+        <img className='lg:max-w-[404px] md:max-w-[388px] max-w-[256px] mx-auto md:mt-[52px] mt-[113px] pointer-events-none' src="./assets/images/png/hero-image.png" alt="hero-image" />
         <div className="flex items-center justify-center">
           <h1 className="relative md:text-8xl text-customSm font-[900] md:mt-8 mt-[108px] bg-gradient-to-b from-purple via-dark-pink to-dark-orange text-transparent bg-clip-text">
             SMERSE

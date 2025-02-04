@@ -22,7 +22,7 @@ const Header = () => {
                 <ul className="flex items-center gap-5 max-lg:hidden">
                     {HEADER_LIST.map((item: HeaderItem, i: number) => (
                         <li key={i}>
-                            <a href={item.link} className="font-semibold text-white text-base relative after:absolute after:h-[1px] after:w-0 after:bg-black after:left-0 hover:after:w-full after:bottom-0 after:transition-all after:duration-300">
+                            <a href={item.link} className="font-semibold text-white text-base relative after:absolute after:h-[2px] after:w-0 after:bg-white after:left-0 hover:after:w-full after:bottom-0 after:transition-all after:duration-300">
                                 {item.title}
                             </a>
                         </li>
