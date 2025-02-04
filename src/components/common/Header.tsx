@@ -33,7 +33,7 @@ const Header = () => {
         <div id="navbar" className="bg-light-black/50 fixed left-0 top-0 w-full z-30">
             <div className="container max-w-[1140px] mx-auto px-4 flex items-center justify-between md:py-4 py-[5px]">
                 <a href="/">
-                    <img src="./assets/images/png/logo.png" alt="logo" className="md:size-[68px] size-10 pointer-events-none" />
+                    <img src="./assets/images/webp/logo.webp" alt="logo" className="md:size-[68px] size-10 pointer-events-none" />
                 </a>
                 <ul className="flex items-center gap-5 max-lg:hidden">
                     {HEADER_LIST.map((item: HeaderItem, i: number) => (
