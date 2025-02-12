@@ -2,11 +2,13 @@
 import react, { useEffect } from 'react'
 import Hero from "../components/Hero"
 import AboutUs from "../components/AboutUs"
+import Project from '@/components/Project';
 const page = () => {
   return (
     <div>
       <Hero />
-      <AboutUs/>
+      <AboutUs />
+      <Project/>
     </div>
   )
 }
