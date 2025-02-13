@@ -3,7 +3,7 @@ import Header from "./common/Header"
 import CustomButton from './common/CustomButton'
 const Hero = () => {
   return (
-    <div className='bg-cover bg-no-repeat bg-center xl:min-h-screen 2xl:min-h-fit relative pb-20' style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }}>
+    <div className='bg-cover bg-no-repeat bg-center 2xl:min-h-fit relative pb-24' style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }}>
       <Header />
       <div className="container max-w-[1140px] mx-auto">
         <img className='lg:max-w-[404px] md:max-w-[388px] max-w-[256px] mx-auto md:pt-[170px] pt-[175px] pointer-events-none' src="./assets/images/webp/hero-image.webp" alt="hero-image" />
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <p className='text-white text-center font-semibold md:text-4xl text-xl max-w-[637px] mx-auto md:pt-[10px] pt-[27px] !leading-customXl'>FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE
         </p>
-        <CustomButton text="Get Started" myClass=" md:!px-[33px] md:!py-[14px] !py-3 !px-5 !flex !mx-auto md:mt-11 !mb-[85px] mt-[82px]" />
+        <CustomButton text="Get Started" myClass=" md:!px-[33px] md:!py-[14px] !py-3 !px-5 !flex !mx-auto md:mt-11 max-xl:!mb-[85px] mt-[82px]" />
       </div>
       <img className='absolute bottom-0 h-10 w-full' src="./assets/images/webp/hero-bottom-line.webp" alt="bottom-line" />
     </div>

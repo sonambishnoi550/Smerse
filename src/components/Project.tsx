@@ -21,7 +21,7 @@ const Project = () => {
                       </div>
                    
                   </div>
-                  <img className='max-w-[471px] w-full max-lg:mx-auto' src="./assets/images/webp/project-girl.png" alt="girl" />
+                  <img className='max-w-[471px] w-full max-lg:mx-auto pointer-events-none' src="./assets/images/webp/project-girl.png" alt="girl" />
               </div>
           </div>
     </div>
