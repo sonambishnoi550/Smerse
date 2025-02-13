@@ -66,7 +66,7 @@ const Header = () => {
                 ))}
                 <CustomButton customOnClick={() => setOpen(false)}
                     text="Mint Now"
-                    myClass="bg-black !text-white px-[24.83px] py-[10px] max-lg:py-2"
+                    myClass="bg-black !text-white !px-[29px] !py-[9px] max-lg:py-2"
                 />
             </div>
         </div>

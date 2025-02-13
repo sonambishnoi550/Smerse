@@ -7,3 +7,6 @@
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
 }
+.bg-hero {
+  background-size: 170% 100%;
+}

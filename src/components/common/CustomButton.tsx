@@ -11,7 +11,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({ text, myClass = "", customO
     return (
         <button
             onClick={customOnClick}
-            className={`text-xl font-extrabold py-[11px] pl-[25px] pr-[23px] shadow-[0px_4px_4px_0px_#ff676b33] text-white rounded-lg transition-all duration-500 hover:scale-110 relative bg-gradient-to-b from-purple via-dark-pink to-dark-orange ${myClass}`}
+            className={`text-xl font-extrabold py-[9px] px-[29px] shadow-[0px_4px_4px_0px_#ff676b33] text-white rounded-lg transition-all duration-500 hover:scale-110 relative bg-gradient-to-b from-purple via-dark-pink to-dark-orange ${myClass}`}
         >
             {text}
         </button>
