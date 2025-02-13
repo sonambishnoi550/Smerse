@@ -3,7 +3,7 @@ import Header from "./common/Header"
 import CustomButton from './common/CustomButton'
 const Hero = () => {
   return (
-    <div className='bg-cover bg-no-repeat bg-center 2xl:min-h-fit relative pb-24' style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }}>
+    <div className='bg-cover bg-no-repeat bg-center 2xl:min-h-fit relative md:pb-24 pb-10' style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }}>
       <Header />
       <div className="container max-w-[1140px] mx-auto">
         <img className='lg:max-w-[404px] md:max-w-[388px] max-w-[256px] mx-auto md:pt-[170px] pt-[175px] pointer-events-none' src="./assets/images/webp/hero-image.webp" alt="hero-image" />

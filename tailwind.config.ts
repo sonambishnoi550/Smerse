@@ -26,6 +26,7 @@ export default {
       },
       fontSize: {
         customXs: "13px",
+        customXXs: "36px",
         customSm: "40px",
         customMd: "52px",
         customLg: "64px",

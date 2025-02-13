@@ -28,7 +28,8 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div>
-                    <img className='max-w-[954px] max-xl:w-full xl:absolute xl:right-0 xl:bottom-[8%]' src="./assets/images/webp/about-us-image.webp" alt="about-us" />
+                    <img className='xl:max-w-[954px] md:block hidden max-xl:w-full xl:absolute xl:right-0 xl:bottom-[8%]' src="./assets/images/webp/about-us-image.webp" alt="about-us" />
+                    <img className='md:hidden block' src="./assets/images/webp/about-sm-image.webp" alt="about" />
                 </div>
             </div>
         </div>
