@@ -5,7 +5,7 @@ import Description from "./common/Description";
 const Vision = () => {
   return (
     <div className="bg-blue -my-1">
-      <div id="vision" className="max-w-[1176px] mx-auto px-8 max-sm:px-4">
+      <div id="Vision" className="max-w-[1176px] mx-auto px-8 max-sm:px-4">
         <Heading text="THE VISION" myClass="!mx-auto" />
         <div className="flex flex-wrap -mx-3 pt-[138px] max-lg:pt-32 max-sm:pt-[88px]">
           {VISION_LIST.map((item, i) => (
@@ -18,7 +18,7 @@ const Vision = () => {
                     : ""
                 }`}
             >
-              <div className="relative bg-gradient-to-b  cursor-pointer from-purple via-dark-pink to-dark-orange rounded-[10px] h-full p-[1px] group">
+              <div className="relative bg-gradient-to-b cursor-pointer from-purple via-dark-pink to-dark-orange rounded-[10px] h-full p-[1px] group">
                 <div className="bg-gray rounded-[10px] px-7 max-sm:px-4 pt-[90px] pb-8 h-full hover:bg-transparent">
                   <Description
                     text={item.description}
