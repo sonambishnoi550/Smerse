@@ -13,7 +13,8 @@ export default {
         "purple": "#952FFE",
         "dark-pink": "#C641C6",
         "dark-orange": "#FF676B",
-        "blue":"#0A0A2B"
+        "blue": "#0A0A2B",
+         "gray": "#222240",
       },
       lineHeight: {
         customXs: "81%",
