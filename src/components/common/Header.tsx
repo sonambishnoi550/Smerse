@@ -38,7 +38,7 @@ const Header = () => {
                 <ul className="flex items-center gap-5 max-lg:hidden">
                     {HEADER_LIST.map((item: HeaderItem, i: number) => (
                         <li key={i}>
-                            <a href={item.link} className="font-semibold text-white text-base relative after:absolute after:h-[2px] after:w-0 after:bg-white after:left-0 hover:after:w-full after:bottom-0 after:transition-all after:duration-300">
+                            <a href={item.link} className="font-semibold text-white text-base relative pb-1 after:absolute after:h-[2px] after:w-0 after:bg-white after:left-0 hover:after:w-full after:bottom-0 after:transition-all after:duration-300">
                                 {item.title}
                             </a>
                         </li>
@@ -51,7 +51,7 @@ const Header = () => {
                     className="lg:hidden z-50 cursor-pointer"
                     onClick={() => setOpen(!open)}
                 >
-                    <button className="overflow-hidden relative z-50 lg:hidden size-6 max-sm:h-5 flex flex-col justify-between items-center">
+                    <button className="overflow-hidden relative z-50 lg:hidden size-6 max-sm:h-4 flex flex-col justify-between items-center">
                         <span className={`bg-white rounded-full w-6 h-1 block transition-all duration-300 ${open ? "translate-x-10" : ""}`}></span>
                         <span className={`bg-white rounded-full after:rounded-lg w-6 h-1 block relative after:bg-transparent after:absolute after:top-0 after:left-0 after:w-full after:h-1 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90 after:!bg-white" : ""}`}></span>
                         <span className={`bg-white rounded-full w-6 h-1 block transition-all duration-300 ${open ? "-translate-x-10" : ""}`}></span>
