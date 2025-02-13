@@ -8,9 +8,9 @@ const Vision = () => {
       <div id="vision" className="max-w-[1176px] mx-auto px-8 max-sm:px-4">
         <div className="flex items-center justify-center">
           <h2 className="relative md:text-5xl text-4xl text-center font-[900] whitespace-nowrap bg-gradient-to-b from-purple via-dark-pink to-dark-orange text-transparent bg-clip-text">
-            THE PROJECT
+            THE VISION
             <span className="absolute -top-[2px] text-center !whitespace-nowrap left-[2px] text-white">
-              THE PROJECT
+              THE VISION
             </span>
           </h2>
         </div>
